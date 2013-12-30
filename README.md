@@ -4,7 +4,7 @@ advanced-dpkg-scanpackages
 Simple bash script to help creating (ubuntu) local repository using dpkg-scanpackages.
 
 Requirements:
-  1. **dpkg-dev** package, `$ sudo apt-get install dpkg-dev`.
+  1. **dpkg-dev** package installed, `$ sudo apt-get install dpkg-dev`.
   2. Edit some configuration in script to match your requirement (backup folder, delete or backup, etc.)
   3. Run this script as root (*for backup & delete old packages*).
 
