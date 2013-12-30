@@ -11,7 +11,7 @@ Requirements:
 There are 3 files in this repository:
   * **advanced-dpkg-scanpackages.sh**, standard, interactive and verbose mode.
   * **advanced-dpkg-scanpackages-langsung.sh**, quiet mode, suitable for using with cronjob.
-  * **advanced-dpkg-scanpackages-changelog**, changelog file.
+  * **CHANGELOG**, changelog file.
 
 ### ABOUT
 This script will run dpkg-scanpackages, make an index file (Packages.gz), then filter (delete or backup) old and unused pakcages which is ignored by dpkg-scanpackages.
